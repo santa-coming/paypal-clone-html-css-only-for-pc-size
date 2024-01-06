@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    /* width: 100dvw; */
+    height: 100dvh;
+    /* background-color: aqua; */
+}
+
+#header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 69px;
+    padding-top: 4px;
+}
+
+#logo {
+    background-image: url("https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg");
+    background-size: contain;
+    height: 43px;
+    width: 136px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+
+}
+
+#ulist {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.navbar-text {
+    margin: 2px 35px 2px 35px;
+    font-family: "PayPal Sans Small Regular";
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+#buttons {
+    position: relative;
+    right: 135px;
+}
+
+.header-button {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #0070ba;
+    color: #0070ba;
+    font-family: "PayPal Sans Small Regular";
+    font-weight: 700;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn-sign-in {
+    background-color: #0070ba;
+    color: white;
+
+}
+
+/* heder css ends here. */
+
+#video-pg1 {
+    height: 590px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#page1-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#pg1-heading {
+    font-family: "PayPal Sans Small Regular";
+    text-align: center;
+    position:   relative;
+    padding-top: 60px;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#pg1-signin-div {
+    text-align: center;
+    padding-top: 32px;
+}
+
+#pg1-signup-btn {
+    
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    width: 340px; 
+    font-family: "PayPal Sans Small Regular";
+    background-color: white;
+    color: #0d3685;
+    /* font-weight: bold; */
+    border-radius: 40px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+}
+
+ #pg1-lastmsg-div {
+    text-align: center;
+   position: relative;
+    top: 345px;
+     background-color: #0d3685;
+    height: 125px;
+}
+
+#pg1-lastmsg-p {
+        padding-top: 20px;
+        color: white;
+        font-family: "PayPal Sans Big Light Regular";
+        font-size: 25px;
+} 
+
+#pg1-last-btn {
+    margin-top: 20px;
+    font-family: "PayPal Sans Small Regular";
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+
+/* pg2 css */
+
+#pg2-maindiv {
+    display: flex;
+    position: absolute;
+    top: 785px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+
+}
+
+.pg2-divs {
+    /* border: 2px solid black; */
+    height: 300px;
+    padding: 80px 200px 80px 200px;
+    background-color: #f5f7fa;
+}
+
+.pg2-divs h2 {
+    color: #00A8EA;
+    font-family: "PayPal Sans Big Light Regular";
+    font-weight: 800;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.pg2-divs p {
+    color: black;
+    font-family: "PayPal Sans Big Light Regular";
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.pg2-divs button {
+    border: 1px solid #0070ba ;
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    color: #0070ba;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+#pg2-div1-img {
+    height: 370px;
+    width: 370px;
+    position: absolute;
+    top: 20px;
+    right: 270px;
+    background-image: url("https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/shopping.png");
+    background-size: contain;
+}
+
+#pg2-div3-img{
+    height: 370px;
+    width: 370px;
+    position: relative;
+    top: -276px;
+    right: -705px;
+    background-image: url("https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/confidence.png");
+    background-size: contain;
+}
+
+#pg2-2div {
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+#pg2-div2-imgdiv{
+    width: 360px;
+    height: 360px;
+    background-image: url("https://www.paypalobjects.com/marketing/web/in/home/everyday-essentials/pay-v2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 150px;
+    position: relative;
+    top: 2px;
+    left: 60px;
+}
+
+#pg2-4div {
+    background-color: white;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.pg2-div4-div-images {
+    display: inline-block;
+    margin: 50px 10px 10px 40px;
+    width: 120px;
+    height: 20px;
+}
+
+#pg2div4-div2{
+    position: relative;
+    top: 10px;
+
+}
+
+#pg2div4-div3{
+    position: relative;
+    top: 10px;
+    right: 27px;
+}
+#pg2-div4-main-imge-div {
+   
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+/* Footer css start here */
+
+#footer_main_div {
+    position: relative;
+    top: 2100px;
+    font-family: "PayPal Sans Small Regular";
+    font-weight: lighter;
+    font-size: 15px;
+    color: #2c2e2f;
+    padding: 20px 150px 20px 228px;
+    background-color: #f5f7fa;
+
+}
+
+#last_footer_links_div {
+    margin-top: 70px;
+}
+#last_footer_links_div a{
+    margin: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+#last_footer_links_div a:hover {
+    text-decoration: underline;
+}
+#last_footer_links_div img{
+    height: 20px;
+    width: 25px;
+    opacity: .4;
+    position: absolute;
+    right: 230px;
+}
